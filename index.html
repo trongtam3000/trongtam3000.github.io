@@ -1,0 +1,90 @@
+<html
+    __fvdsurfcanyoninserted="1"
+    class="
+        clickberry-extension
+        clickberry-extension-standalone
+        clickberry-extension
+        clickberry-extension-standalone
+        clickberry-extension
+        clickberry-extension-standalone
+    "
+>
+    <head>
+        <meta charset="UTF-8" />
+                <link rel="shortcut icon" type="image/png" href="./birthdayCake.png"/>
+
+       
+        <title>Happy Birthday</title>
+        <link rel="stylesheet" href="./style.css">
+        <script>
+            window.open = function () {};
+            window.print = function () {};
+            
+            if (false) {
+                window.ontouchstart = function () {};
+            }
+        </script>
+        <script
+            type="text/javascript"
+            src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"
+        ></script>
+        <meta content="clickberry-extension-here" />
+    </head>
+
+    <body>  class="page__main">
+        <div class="buttons">
+            <big><big><a href="gallery/index.html" id="anh">Ảnh kĩ niệm</a></big>></big>
+        </div>
+        <link
+            href="https://fonts.googleapis.com/css?family=Wendy+One"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <div class="container">
+            
+            <div class="balloon">
+                <div><span>H</span></div>
+                <div><span>A</span></div>
+                <div><span>P</span></div>
+                <div><span>P</span></div>
+                <div><span>Y</span></div>
+                <div><span>B</span></div>
+                <div><span>I</span></div>
+                <div><span>R</span></div>
+                <div><span>T</span></div>
+                <div><span>H</span></div>
+                <div><span>D</span></div>
+                <div><span>A</span></div>
+                <div><span>Y</span></div>
+            </div>
+            <div class="avatar">
+                
+                <img src="./MyAvatar.jpg" alt="" class="avatar__img" onclick="showMessage()" />
+              
+                <h1 onclick="showMessage()" class="avatar__title">HUỆ CHI 😁</h1>
+            </div>
+            
+            
+           
+            <audio id="player" autoplay loop>
+                <source src="./music.mp3" type="audio/mp3">
+            </audio>
+        </div>
+        <script>
+            if (document.location.search.match(/type=embed/gi)) {
+                window.parent.postMessage("resize", "*");
+            }
+            function showMessage() {
+               
+                swal({
+                    title: "Lời nhắn", 
+                    text: "Chúc dì út tuổi mới thành công, luôn giữ được nụ cười trên môi và hi vọng điều ước với chiếc bánh sinh nhật sẽ không chỉ là hi vọng mà nó sẽ trở thành sự thật vào 1 ngày không xa, happy birthday dì út của con 😜hehe", // Nội dung lời nhắn
+                    button: {
+                        text: "😉️",
+                    },
+                });
+            }
+        </script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    </body>
+</html>
